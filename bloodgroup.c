@@ -9,7 +9,11 @@ void main()
     scanf("%s", Name);
     do
     {
+<<<<<<< HEAD
       printf("What is your blood group [a1, b1, AB, or O]? ");
+=======
+      printf("What is your blood group [a, b, AB1, or O1]? ");
+>>>>>>> 43842d9f82d063369127ed72af805602aaddc40d
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
